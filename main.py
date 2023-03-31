@@ -14,8 +14,9 @@ def spellingbee():
     lol = json.loads(kek)
     todaydate = lol["today"]["displayDate"]
     answers = lol["today"]["answers"]        
+    theletters = lol["today"]["validLetters"]
    
-    return "Today Date: " + todaydate + "<br/>" + "<br/>" + "Answers: " + str(answers)
+    return "Today Date: " + todaydate + "<br/>" + "<br/>" + "Answers: " + str(answers) + "<br/>" + "<br/>" + "letters: " + str(theletters) + "<br/>" + "<br/>" + "Yesterday Stuff: " + "<br/>" + "<br/>" + "Yeserday Day: " + lol["yesterday"]["displayWeekday"] + "<br/>" +  "<br/>" + "Yeterday Answers: " +  str(lol["yesterday"]["answers"])
 
 
 
