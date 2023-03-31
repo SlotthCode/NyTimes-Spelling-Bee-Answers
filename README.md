@@ -3,4 +3,4 @@ This gets the answers for the spelling bee on NYTimes. I will be adding wordle p
 
 *endpoint: /spellingbee*
 
-![image](https://user-images.githubusercontent.com/80789840/229209799-edb19780-520b-4546-9ee3-45529c0da8c4.png)
+![image](https://user-images.githubusercontent.com/80789840/229213112-e7d62b4a-06a5-4266-8dd4-030264099320.png)
